@@ -17,12 +17,11 @@
 
 // Put your function here!
 fn calculate_price_of_apples(x:u32)->u32{
-    if x<=40{
+    if x<=40 {
         2*x
     }
-    else{
-        1*x
-
+    else {
+        x
     }
 }
 
